@@ -1,0 +1,54 @@
+:root {
+  --colors-primary: #d00b50;
+}
+
+
+.category-name {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+  padding: 10px;
+  background-color: white;
+
+}
+.paragraph-single-post {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 150% */
+  letter-spacing: 0.16px;
+}
+.button-for-post {
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.75px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+.post-title {
+  font-family: EB Garamond;
+  font-size: 54px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.article-content {
+  font-family: Helvetica;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.article-sidebar-heading {
+  color: var(--colors-primary);
+  font-family: EB Garamond;
+  font-size: 39.06px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.172px;
+}

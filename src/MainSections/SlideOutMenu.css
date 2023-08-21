@@ -1,0 +1,44 @@
+/* Add your existing styles here */
+
+.slide-out-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .slide-out-menu.open {
+    left: 0;
+  }
+  
+  .menu-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .menu-list li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .menu-list li a:hover {
+    color: #ff9900; /* Change to your desired hover color */
+  }
+  
